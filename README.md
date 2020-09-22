@@ -27,7 +27,7 @@ Create your model User and add Atributte Table and Key in your class (Dapper.Con
 ```
 Create your user repository and add extend of AbstractRepository<T> (UDDS.dll ) 
 ```sh
-    public class UserRepository : AbstractRepository<Cliente>
+    public class UserRepository : AbstractRepository<User>
     {
     }
 
@@ -48,6 +48,13 @@ The user's crud methods are now available to use in your project! :)
 Open project in Visual Studio
 Load Dependencies
 ```
+
+## Usage: 
+    C# Generics
+    C# Reflection
+    Dapper
+    Dapper.Contrib
+    SQLite
 
 ## Release History
 
